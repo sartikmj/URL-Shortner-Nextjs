@@ -15,7 +15,7 @@ export default function Home() {
             we understand you needs and hence we have created this URL shortner. 
           </p>
           <div className='flex gap-3 text-white'>
-          <Link href="/generate"><button className='bg-purple-500 rounded-lg p-3 font-bold'>Try Now</button></Link>
+          <Link href="/shorten"><button className='bg-purple-500 rounded-lg p-3 font-bold'>Try Now</button></Link>
           <Link href="/github"><button className='bg-purple-500 rounded-lg p-3 font-bold'>GitHub</button> </Link>
         </div>
         </div>

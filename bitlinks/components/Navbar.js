@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='h-16 bg-purple-700 flex justify-between px-3 items-center text-white'>
       <div className="logo font-bold text-2xl">
-        BitLinks
+        <Link href="/">Bitlinks</Link>
       </div>
       <ul className='flex justify-center items-center gap-4'>
         <Link href="/"><li>Home</li></Link>
@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link href="/generate"><li>Shorten</li></Link>
         <Link href="/contact"><li>Contact Us</li></Link>
         <div className='flex gap-3'>
-          <Link href="/generate"><button className='bg-purple-500 rounded-lg p-3 font-bold'>Try Now</button></Link>
+          <Link href="/shorten"><button className='bg-purple-500 rounded-lg p-3 font-bold'>Try Now</button></Link>
           <Link href="/github"><button className='bg-purple-500 rounded-lg p-3 font-bold'>GitHub</button> </Link>
         </div>
       </ul>
